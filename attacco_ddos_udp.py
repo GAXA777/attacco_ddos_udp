@@ -1,4 +1,4 @@
-mport socket
+import socket
 import random
 
 ip_target = input("Inserisci l'indirizzo IP del bersaglio target: ")
